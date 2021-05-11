@@ -1,5 +1,14 @@
 <h2>Products</h2>
 
+
+<form class="form">
+  <div class="srch">
+    <input class="form" type="text" placeholder="Search">
+  </div>
+</form>
+  
+
+
 <div *ngFor="let product of products">
   <h3>
     <a [title]="product.name + ' details'"
